@@ -1,45 +1,22 @@
-// import { createRouter, createWebHistory } from 'vue-router'
-// import HomePage from '../views/HomePage.vue'
-// import Noticias from '../views/Noticias.vue'
-// // Importe os outros componentes de página
+import { createRouter, createWebHistory } from 'vue-router';
+import HomeComponent from '../components/HomeComponent.vue';
+import NoticiaComponent from '../components/NoticiaComponent.vue';
+import SobreComponent from '@/components/SobreComponent.vue';
+import VisiteComponent from '@/components/VisiteComponent.vue';
+// ... importe os outros componentes de página
 
-// const routes = [
-//   {
-//     path: '/',
-//     name: 'Home',
-//     component: HomePage
-//   },
-//   {
-//     path: '/noticias',
-//     name: 'Noticias',
-//     component: Noticias
-//   },
-//   // Adicione as outras rotas aqui
-//   {
-//     path: '/sobre',
-//     name: 'Sobre',
-//     component: () => import('../views/Sobre.vue')
-//   },
-//   {
-//     path: '/mirim',
-//     name: 'Mirim',
-//     component: () => import('../views/Mirim.vue')
-//   },
-//   {
-//     path: '/mais-sobre-o-bairro',
-//     name: 'MaisSobreOBairro',
-//     component: () => import('../views/MaisSobreOBairro.vue')
-//   },
-//   {
-//     path: '/visite',
-//     name: 'Visite',
-//     component: () => import('../views/Visite.vue')
-//   }
-// ]
+const routes = [
+  { path: '/', component: HomeComponent },
+  { path: '/noticias', component: NoticiaComponent },
+  { path: '/sobre', component: SobreComponent },
+  { path: '/visite', component: VisiteComponent },
 
-// const router = createRouter({
-//   history: createWebHistory(import.meta.env.BASE_URL),
-//   routes
-// })
+  // adicione as rotas para as outras páginas aqui
+];
 
-// export default router
+const router = createRouter({
+  history: createWebHistory(),
+  routes,
+});
+
+export default router;

@@ -1,10 +1,6 @@
-  <script setup>
-    import HomeComponent from './components/HomeComponent.vue';
-  </script>
-
 <template>
   <main>
-    <HomeComponent />
+    <router-view></router-view>
   </main>
 </template>
 
@@ -20,14 +16,13 @@
   box-sizing: border-box;
 } */
 
-body {
+/* body {
   margin: 0;
   padding: 0;
 }
 
 main {
-  /* Estilos para o conteúdo principal */
   width: 100%;
   overflow: hidden;
-}
+} */
 </style>

@@ -6,11 +6,11 @@
     </div>
 
     <div class="links">
-      <a href="">Notícias</a>
-      <a href="">Sobre</a>
+      <router-link to="/noticias">Notícias</router-link>
+      <router-link to="/sobre">Sobre</router-link>
       <a href="">Museu</a>
       <a href="">Mais sobre o barirro</a>
-      <a href="">Visite</a>
+      <router-link to="/visite">Visite</router-link>
 
       <div class="redes">
         <a href="https://m.facebook.com/museudafreguesiademirim/" target="_blank" rel="noopener noreferrer">
