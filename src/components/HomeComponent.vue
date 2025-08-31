@@ -9,7 +9,7 @@
       <router-link to="/noticias">Notícias</router-link>
       <router-link to="/sobre">Sobre</router-link>
       <a href="">Museu</a>
-      <a href="">Mais sobre o barirro</a>
+      <router-link to="/mais-sobre-o-bairro">Mais sobre o barirro</router-link>
       <router-link to="/visite">Visite</router-link>
 
       <div class="redes">
