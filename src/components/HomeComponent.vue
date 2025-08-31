@@ -8,7 +8,7 @@
     <div class="links">
       <router-link to="/noticias">Notícias</router-link>
       <router-link to="/sobre">Sobre</router-link>
-      <a href="">Museu</a>
+      <router-link to="/museu">Museu</router-link>
       <router-link to="/mais-sobre-o-bairro">Mais sobre o barirro</router-link>
       <router-link to="/visite">Visite</router-link>
 
