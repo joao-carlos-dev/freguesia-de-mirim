@@ -48,25 +48,25 @@ export default {
           titulo: 'Festa do Divino',
           resumo: 'Tradicional festa regiliosa do bairro. com mais de 100 anos de história',
           imagem: fotoMateria01,
-          link: '/materias/materia-1'
+          link: '/materias/Materia-01'
         },
         {
           titulo: 'Educação',
           resumo: 'Contando um pouco sobre a história da educação do bairro.',
           imagem: fotoMateria02,
-          link: '/materias/materia-2'
+          link: '/mais-sobre-o-bairro/materia-2'
         },
         {
           titulo: 'Fundação do bairro',
           resumo: 'Contando um pouco sobre a fundação do bairro e sua colonização.',
           imagem: fotoMateria03,
-          link: '/materias/materia-3'
+          link: '/mais-sobre-o-bairro/materia-3'
         },
         {
           titulo: 'Lagoa do Mirim',
           resumo: 'Breve história da importância da lagoa para o desenvolvimento do bairro.',
           imagem: fotoMateria04,
-          link: '/materias/materia-4'
+          link: '/mais-sobre-o-bairro/materia-4'
         },
       ],
 
@@ -119,7 +119,7 @@ export default {
 }
 
 .carousel__slide {
-  flex-basis: calc(50% - 5px);
+  flex-basis: 30%;
   margin: 0 2px;
   padding: 0;
 }
@@ -131,7 +131,7 @@ export default {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background-color: #63ac86;
   transition: transform 0.3s ease;
-  width: 50%;
+  width: 355px;
   margin: auto;
 }
 
@@ -140,8 +140,8 @@ export default {
 }
 
 .card-image {
-  width: 100%;
-  height: auto;
+  width: 350px;
+  height: 300px;
   display: block;
   border-radius: 12px;
 }
@@ -169,7 +169,7 @@ export default {
   display: inline-block;
   padding: 10px 15px;
   background-color: #cdcfc0;
-  color:  #090708;
+  color: #090708;
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
@@ -200,7 +200,12 @@ export default {
   }
 
   .card {
-    width: 100%;
+    width: 355px;
+  }
+
+  .card-image {
+    width: 350px;
+    height: 300px;
   }
 }
 
@@ -210,7 +215,16 @@ export default {
   }
 
   .card {
-    width: 85%;
+    width: 355px;
+  }
+
+  .carousel__slide {
+    flex-basis: 50%;
+  }
+
+  .card-image {
+    width: 350px;
+    height: 300px;
   }
 
   .card-content h3 {
@@ -228,8 +242,14 @@ export default {
   }
 
   .card {
-    width: 80%;
+    width: 355px;
   }
+
+  .card-image {
+    width: 350px;
+    height: 300px;
+  }
+
 
   .card-content h3 {
     font-size: 22px;
