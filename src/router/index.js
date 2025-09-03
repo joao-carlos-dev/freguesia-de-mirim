@@ -5,7 +5,7 @@ import SobreComponent from '@/components/SobreComponent.vue';
 import VisiteComponent from '@/components/VisiteComponent.vue';
 import MaisSobreObairroComponent from '@/components/MaisSobreObairroComponent.vue';
 import MuseuComponent from '@/components/MuseuComponent.vue';
-import Materia01 from '@/materias/materia-01.vue';
+import Materia01 from '@/materias/Materia-01.vue';
 // ... importe os outros componentes de página
 
 const routes = [
